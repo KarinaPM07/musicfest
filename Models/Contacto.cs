@@ -14,9 +14,10 @@ namespace musicfest.Models
         public int Id { get; set; }
 
         
-        [Column("nombre")]
+        [Column("nombrecompleto")]
         public string nombre { get; set; }
-
+        [Column("nombrecompleto")]
+        public string nombre { get; set; }
         
         [Column("apellido paterno")]
         public string apellido_paterno { get; set; }
